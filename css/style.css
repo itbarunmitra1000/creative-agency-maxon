@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.all-btn{
+    background-color: #FF7214;
+    font-size: 9px;
+
+}
+.all-text-clr{
+    color: #FF7214;
+}
+
+/* --------------header menu banner css ------------- */
+
+.header-bg-color{
+    background-color: #F7F7F7;
+}
+.logo{
+    color: #323540;
+    font-size: 30px;
+}
+
+
+.nav-btn-bar{
+    margin-right: 250px;
+}
+.nav-btn {
+    font-size: 10px;
+}
+
+/* banner section  */
+
+.banner-img{
+    background-image: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+    /* width: 100%;
+    max-height: 620px; */
+    background-size: cover;
+}
+
+
+
+/* ............. about our company section  ............ */
+
+.about{
+    background-image: url(../images/about-company/about-background.png);
+    max-width: 550px;
+    max-height: 460px;
+    margin-left: 80px;
+    
+}
+.about-photo1 img{
+    max-width: 460px;
+    margin-left: -25%;
+    margin-top: 15%;
+}
+.about-photo2 img{
+    max-width: 360px;
+    margin-left: -35%;
+    margin-top: -10%;
+}
+
+.about-photo-text{
+    margin-left: -35%;
+    margin-top: 30%;
+}
+
+.about-article{
+    margin-left: 20%;
+}
+
+/* ............CLIENT WORK EXPERIENCE...........  */
+
+.abstract-graphic-article {
+    margin-left: 17%;
+}
+
+.digital-article{
+    margin-left: 5%;
+}
+
+/* web summary and work percentige  */
+
+.web-summary{
+  background-color: #162B45;
+  
+}
+.percentige_font{
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+/* Testimonials section  */
+
+.client-dept{
+    font-size: 12px;
+}
+
+
+ /* contact us part  */
+ .send-message{
+     font-size: 15px;
+ }
+
+
+ .footer{
+     background-color: #162B45;
+ }
+
+ .footer-img{
+     width: 80px;
+     height: 80px;
+ }
+
+ .footer-copyright{
+     background-color: #10233A;
+ } 
