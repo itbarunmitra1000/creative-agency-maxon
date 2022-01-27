@@ -87,6 +87,7 @@ body{
     margin-left: 5%;
 }
 
+
 /* web summary and work percentige  */
 
 .web-summary{
@@ -128,7 +129,8 @@ body{
 
  /*............... -------------------------media query -----------------  */
 
- @media only screen and (min-width:1024px) and (max-width:1279px){
+ @media only screen and (min-width:1024px) and (max-width:1440px){
+
 
      /* web summary and work percentige  */
 
@@ -136,7 +138,18 @@ body{
       font-size: 40px;
       margin-left: 20px;
   }
-  
+ 
+
+     /* client work Experience */
+
+.abstract-graphic-article {
+        margin-left: 5%;
+    }
+    .client-work-photo{
+        max-width: 650px;
+        height: 550px;
+    
+        }
  }
 
  @media only screen and (max-width:768px) {
@@ -159,6 +172,10 @@ body{
     width: 700px;
     height: 400px;
 
+    }
+     
+.abstract-graphic-article {
+        margin-left: 5%;
     }
   }
     
