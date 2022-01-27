@@ -123,3 +123,80 @@ body{
  .footer-copyright{
      background-color: #10233A;
  } 
+
+
+
+ /*............... -------------------------media query -----------------  */
+
+ @media only screen and (min-width:1024px) and (max-width:1279px){
+
+     /* web summary and work percentige  */
+
+  .percentige_font{
+      font-size: 40px;
+      margin-left: 20px;
+  }
+  
+ }
+
+ @media only screen and (max-width:768px) {
+
+  /* ............. about our company section  ............ */
+
+.about-photo1 img{
+    max-width: 360px;
+    margin-left: -25%;
+    margin-top: 15%;
+}
+.about-photo2 img{
+    max-width: 260px;
+    margin-left: -35%;
+    margin-top: -10%;
+}
+  /* client work Experience */
+    
+  .client-work-photo{
+    width: 700px;
+    height: 400px;
+
+    }
+  }
+    
+  @media only screen and (max-width:480px) {
+
+    /* ............. about our company section  ............ */
+  
+  .about-photo1 img{
+      max-width: 130px;
+      margin-left: -25%;
+      margin-top: 15%;
+  }
+  .about-photo2 img{
+      max-width: 80px;
+      margin-left: -35%;
+      margin-top: -10%;
+  }
+  
+.about-photo-text{
+    margin-top: 30%;
+    font-size: 16px;
+}
+
+/* client work Experience */
+
+.client-work-photo{
+    width: 300px;
+    height: 150px;
+
+    }
+
+    /* Testimonials section  */
+
+    .testimonials-photo{
+        width: 300px;
+    }
+
+    }
+
+ 
+
